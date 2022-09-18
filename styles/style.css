@@ -1,6 +1,6 @@
-div {
+/* div ul li {
   border: 2px solid red;
-}
+} */
 .page {
   min-width: 1100px;
   /* мы ещё не умеем делать мобильную версию сайта, */
@@ -21,9 +21,11 @@ div {
   display: flex;
   /* выше установили ограничения для секции */
 }
+
 .logo {
   background-image: url("/images/logo_place_header.svg");
 }
+
 .logo_place_header {
   width: 228px;
   height: 32px;
@@ -32,6 +34,7 @@ div {
   left: 64px;
   z-index: 6;
 }
+
 .header__title {
   display: flex;
   flex-direction: column;
@@ -43,6 +46,7 @@ div {
   font-size: 102px;
   font-weight: 600;
 }
+
 .header__subtitle {
   position: absolute;
   z-index: 4;
@@ -53,6 +57,7 @@ div {
   font-size: 18px;
   font-weight: normal;
 }
+
 .header__main-illustration {
   position: absolute;
   z-index: 3;
@@ -61,6 +66,7 @@ div {
   width: 765px;
   height: 608px;
 }
+
 .header__square-pic {
   background-color: #2f80ed;
   height: 568px;
@@ -72,6 +78,111 @@ div {
   right: 0;
   top: 64px;
 }
+
+.two-columns {
+  display: flex;
+  justify-content: space-between;
+  min-width: 784px;
+  width: 80%;
+  margin: 100px auto 100px;
+  text-align: left;
+}
+
+.two-columns__brief {
+  line-height: 1.2;
+  font-size: 18px;
+  font-weight: normal;
+  color: #2f80ed;
+  width: 175px;
+  margin-top: 0px;
+}
+
+.two-columns__main-text {
+  margin-top: 0;
+  width: 80%;
+  min-width: 784px;
+}
+
+.two-columns__paragraph {
+  margin-top: 0px;
+  margin-bottom: 30px;
+  line-height: 34px;
+  font-size: 24px;
+  font-weight: normal;
+}
+
+.two-columns__paragraph:last-child {
+  margin-bottom: 0px;
+}
+
+.two-columns__span-accent {
+  line-height: 34px;
+  font-size: 24px;
+  font-weight: 600;
+}
+
+.section-title {
+  margin: 100px auto 20px;
+  width: 60%;
+  text-align: center;
+  line-height: 1.15;
+  font-size: 60px;
+  font-weight: 600;
+}
+
+.section-subtitle {
+  width: 60%;
+  margin: auto;
+  text-align: center;
+  line-height: 34px;
+  font-size: 24px;
+  font-weight: normal;
+}
+
+.table {
+  width: 1100px;
+  margin: 0 auto 100px;
+  list-style: none;
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.table__cell {
+  width: 250px;
+  margin: 60px auto 0px;
+}
+
+.table__heading {
+  margin: 0 ;
+  line-height: 1.15;
+  font-size: 24px;
+  font-weight: 600;
+}
+
+.table__text {
+  margin: 20px auto 0;
+  line-height: 1.2;
+  font-size: 18px;
+  font-weight: normal;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 /* ниже мы привели пример двух селекторов, чтобы вы вспомнили запись элемента */
 .header__square-pic {
