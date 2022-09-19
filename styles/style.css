@@ -21,12 +21,12 @@
 }
 
 .logo {
-  background-image: url("/images/logo_place_header.svg");
+  width: 228px;
+  height: 32px;
 }
 
 .logo_place_header {
-  width: 228px;
-  height: 32px;
+  background-image: url("/images/logo_place_header.svg");
   position: absolute;
   top: 30px;
   left: 64px;
@@ -274,33 +274,69 @@
   z-index: 1;
 }
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-/* ниже мы привели пример двух селекторов, чтобы вы вспомнили запись элемента */
-.header__square-pic {
-  height: 568px;
-  width: 568px;
+.footer {
+  background-color: black;
+  color:white;
+  min-height: 350px;
+  display: flex;
 }
 
-/* и элемента с модификатором вида ключ-значение */
-.table__cell_theme_dark {
-  width: 200px;
+.footer__columns {
+  display: flex;
+  justify-content: space-between;
+  width: 90%;
+  padding-top: 60px;
+  margin: 0px auto 40px;
+  list-style: none;
+}
+
+.footer__column_content_copyright {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  flex-basis: 711px;
+}
+
+.logo_place_footer {
+  background-image: url("/images/logo_place_footer.svg");
+}
+
+.footer__author {
+  display: flex;
+  line-height: 25px;
+  font-size: 18px;
+  font-weight: normal;
+}
+
+/* .footer__column_content_info {
+}
+
+.footer__column_content_social {
+} */
+
+.footer__column-heading {
+  margin: 0 0 20px;
+  line-height: 30px;
+  font-size: 18px;
+  font-weight: 600;
+}
+
+.footer__column-links {
+  display: flex;
+  flex-direction: column;
+  margin: 0 0 16px;
+}
+
+.footer__column-link {
+  text-decoration: none;
   color: white;
-  margin-right: 0;
-  margin-top: 80px;
+  line-height: 30px;
+  font-size: 18px;
+  font-weight: normal;
+}
+
+.footer__social-icon {
+  width: 16px;
+  height: 16px;
+  padding-right: 10px;
 }
