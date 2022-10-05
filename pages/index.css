@@ -34,7 +34,11 @@
 /* block techniques */
 @import url(../blocks/techniques/techniques.css);
 /* block video */
+@import url(../blocks/video/video.css);
+@import url(../blocks/video/__iframes/video__iframes.css);
+@import url(../blocks/video/__iframe/video__iframe.css);
 /* block oakley */
+@import url(../blocks/oakley/oakley.css);
 /* block feynman */
 @import url(../blocks/feynman/feynman.css);
 @import url(../blocks/feynman/__title/feynman__title.css);
