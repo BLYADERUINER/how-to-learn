@@ -1,12 +1,12 @@
 .cards__item {
-    width: 240px;
-    display: flex;
-    flex-direction: column;
-    text-align: center;
-    padding: 0px;
-    margin: 0 100px 0 0;
+  width: 240px;
+  display: flex;
+  flex-direction: column;
+  text-align: center;
+  padding: 0px;
+  margin: 0 100px 0 0;
 }
 
 .cards__item:nth-last-of-type(3n) {
-    margin-right: 0px;
+  margin-right: 0px;
 }

@@ -16,6 +16,8 @@
 @import url(../blocks/section-title/_theme_dark/section-title_theme_dark.css);
 @import url(../blocks/section-subtitle/section-subtitle.css);
 @import url(../blocks/section-subtitle/_theme_dark/section-subtitle_theme_dark.css);
+/* block description */
+@import url(../blocks/description/description.css);
 /* block two-columns */
 @import url(../blocks/two-columns/two-columns.css);
 @import url(../blocks/two-columns/__brief/two-columns__brief.css);
@@ -52,6 +54,7 @@
 @import url(../blocks/cards/__image/cards__image.css);
 @import url(../blocks/cards/__description/cards__description.css);
 /* block digits */
+@import url(../blocks/digits/digits.css);
 /* block khan */
 @import url(../blocks/khan/khan.css);
 @import url(../blocks/khan/__author/khan__author.css);
