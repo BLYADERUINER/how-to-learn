@@ -10,12 +10,12 @@
 @import url(../blocks/header/__square-pic/header__square-pic.css);
 /* block logo */
 @import url(../blocks/logo/logo.css);
-@import url(../blocks/logo/_place/_header/logo_place_header.css);
+@import url(../blocks/logo/_place/logo_place_header.css);
 /* block section-title & section-subtitle */
 @import url(../blocks/section-title/section-title.css);
-@import url(../blocks/section-title/_theme/_dark/section-title_theme_dark.css);
+@import url(../blocks/section-title/_theme/section-title_theme_dark.css);
 @import url(../blocks/section-subtitle/section-subtitle.css);
-@import url(../blocks/section-subtitle/_theme/_dark/section-subtitle_theme_dark.css);
+@import url(../blocks/section-subtitle/_theme/section-subtitle_theme_dark.css);
 /* block description */
 @import url(../blocks/description/description.css);
 /* block two-columns */
@@ -26,13 +26,13 @@
 @import url(../blocks/two-columns/__span-accent/two-columns__span-accent.css);
 /* block table */
 @import url(../blocks/table/table.css);
-@import url(../blocks/table/_theme/_dark/table_theme_dark.css);
+@import url(../blocks/table/_theme/table_theme_dark.css);
 @import url(../blocks/table/__cell/table__cell.css);
-@import url(../blocks/table/__cell/_theme/_dark/table__cell_theme_dark.css);
+@import url(../blocks/table/__cell/_theme/table__cell_theme_dark.css);
 @import url(../blocks/table/__heading/table__heading.css);
-@import url(../blocks/table/__heading/_theme/_dark/table__heading_theme_dark.css);
+@import url(../blocks/table/__heading/_theme/table__heading_theme_dark.css);
 @import url(../blocks/table/__text/table__text.css);
-@import url(../blocks/table/__text/_theme/_dark/table__text_theme_dark.css);
+@import url(../blocks/table/__text/_theme/table__text_theme_dark.css);
 /* block techniques */
 @import url(../blocks/techniques/techniques.css);
 /* block video */
@@ -77,7 +77,7 @@
 /* block footer */
 @import url(../blocks/footer/footer.css);
 @import url(../blocks/footer/__columns/footer__columns.css);
-@import url(../blocks/footer/__column/_content/_copyright/footer_column_content_copyright.css);
+@import url(../blocks/footer/__column/_content/footer__column_content_copyright.css);
 @import url(../blocks/footer/__author/footer__author.css);
 @import url(../blocks/footer/__column-heading/footer__column-heading.css);
 @import url(../blocks/footer/__column-links/footer__column-links.css);
